@@ -1,0 +1,62 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.subscribe-section h2 {
+  margin: 40px 0px 20px 0px;
+}
+
+.subscribe-section p {
+  margin: 20px;
+}
+.subscribe-section button {
+  margin: 20px;
+  padding: 10px 30px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.modal-bg {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s;
+}
+.bg-active {
+  visibility: visible;
+  opacity: 1;
+}
+.modal {
+  position: relative;
+  background-color: white;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.modal button {
+  margin: 20px;
+  padding: 10px 30px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.cancelBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}

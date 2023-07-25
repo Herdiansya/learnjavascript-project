@@ -1,0 +1,24 @@
+.hero1 {
+  height: 100vh;
+}
+.hero1 img {
+  width: 100vh;
+}
+.hero2 {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero2 img {
+  width: 100vh;
+}
+.textHero2 {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0s all ease-in-out;
+}
+.textHero2Effect {
+  opacity: 1;
+  transform: translateY(0);
+}
